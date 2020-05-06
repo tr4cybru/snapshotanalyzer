@@ -14,7 +14,9 @@ snippy uses the configuration file created by the AWS cli. e.g.
 
 ##Running
 
-`pipenv run python snippy/snippy.py <command> --project=<PROJECT>`
+`pipenv run python snippy/snippy.py <command> <subcommand>
+--project=<PROJECT>`
 
-*command* is list, start, stop
+*command* is instances, volumes or snapshots
+*subcommand* depends on command
 *project* is optional
